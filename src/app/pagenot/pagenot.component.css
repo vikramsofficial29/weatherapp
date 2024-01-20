@@ -1,0 +1,35 @@
+
+/* .container
+{
+    margin-left: 28%;
+    margin-top: 5%;
+    width: 60%;
+    border: 1px solid red;
+    padding-right: 0;
+} */
+/* body{
+    background-image: url('../../assets/219918-P1D0HC-507.jpg');
+    background-size: cover;
+    max-height: 100vh;
+} */
+
+.container img{
+    /* height: 30%; */
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-left: 35% ;
+}
+
+button{
+    margin-left: 38%;
+    color: whitesmoke;
+    background-color: #000c30;
+    border: none;
+    width: 25%;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: 'Jost', sans-serif;
+    font-weight:bold;
+
+
+}

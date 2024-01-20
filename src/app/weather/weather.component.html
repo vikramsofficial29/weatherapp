@@ -1,0 +1,73 @@
+<!-- <p>weather works!</p> -->
+
+<body>
+    <div class="navbar1">
+        <div class="leftnav">
+            <div> <img src="../../assets/logo.png" alt="" class="logo"></div>
+           <div>
+            <h1 class="site-title"> Wizards Weathercast </h1>
+           </div>
+            
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><button routerLink="/login">Logout</button></li>
+                <li><button routerLink="/pagenot">About</button></li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="nav">
+        <div class="logo">
+            <img src="../../assets/logo.png" alt="" class="logo">
+            <div class="logo-type">
+                <h1 class="site-title"> Wizards Weathercast </h1>
+                <small class="site-description">Real time weather forecast</small>
+            </div>
+        </div>
+        <div class="navlink">
+            <ul>
+                <li><button routerLink="/login">Logout</button></li>
+                <li><button routerLink="/pagenot">No Page</button></li>
+            </ul>
+        </div>
+    </div> -->
+
+    <div class="search">
+    <input #city type="text" name="city" placeholder="Enter your city name..." required>
+    <button type="submit" (click)="search(city)"> Find </button>
+</div>
+
+    <div class="container" *ngIf="cname!=''">
+        <div class="card text-white bg-primary m-3 w-20" style="max-width: 18rem;">
+
+            <div class="card-header">
+                <p>{{cname}}</p>
+                <p> <img src="{{ iurl }}" alt="weather"> </p>
+            </div>
+
+
+        </div>
+        <div class="card-body">
+
+        <div>
+            <p class="card-text">Summary : <br> {{ summary }}</p>
+        </div>
+
+        <div>
+            <p class="card-text">Temperature : <br> {{temperature}} °F</p>
+        </div>
+        <div>
+            <p class="card-text">Humidity : <br> {{ humidity }} %</p>
+        </div>
+        <div>
+            <p class="card-text">Pressure :<br> {{ pressure }} hPa</p>
+        </div>
+        <div>
+            <p class="card-text">Feels like :<br> {{ feels }} °F</p>
+        </div> 
+           
+
+        </div>
+    </div>
+
+</body>

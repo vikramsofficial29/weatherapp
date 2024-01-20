@@ -1,0 +1,115 @@
+body
+{
+    background-image: url('../../assets/7280763.jpg');
+    background-size: cover;
+min-height: 100vh;
+}
+.container
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* .nav{
+    background-color: #1e202b;
+    height: 100px;
+} */
+/* .navlink ul li{
+    display: inline;
+} */
+.rightnav button{
+    width: 100px;
+    height: 30px;
+    margin: 13px;
+    background: none;
+    border-radius: 6px;
+    border: solid 1px #FFBE0D;
+    color: #FFBE0D;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    margin-top: 20%;
+
+}
+input{
+    width: 78%;
+    margin-top:5% ;
+    height: 15%;
+    padding: 10px;
+    margin-left: 6%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search button{
+border: none;
+color: white;
+background-color: #FFBE0D;
+width: 10%;
+height: 15%;
+font-size: 20px;
+font-family: 'Montserrat';
+font-weight: bold;
+border-radius: 20px;
+padding: 5px;
+margin-left: 1%;
+}
+
+.logo{
+display: flex;
+}
+.site-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 10px;
+font-size: 20px;
+color: aliceblue;
+}
+.site-description{
+    font-size: 10px;
+color: aliceblue;}
+
+.logo-type
+{
+display: block;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e202b;
+    height: 140px
+}
+.rightnav li{
+    display: inline;
+}
+.leftnav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.card-body{
+    display: flex;
+    
+}
+
+.card-header{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 6%;
+    font-size: 30px;
+}
+
+.card-text{
+    margin: 20px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
